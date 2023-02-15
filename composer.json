@@ -1,0 +1,29 @@
+{
+    "name": "laralite/laralite",
+    "description": "laralite freamwork",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Laralite\\": "laralite/src/",
+            "App\\": "app/"
+        },
+        "files": [
+            "laralite/src/Helpers/helper.php"
+        ]
+
+    },
+    "authors": [
+        {
+            "name": "mohamedkhaled2000",
+            "email": "mohhaaaak4@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "filp/whoops": "^2.14",
+        "jenssegers/blade": "^1.4",
+        "rakit/validation": "^1.4"
+    }
+}
